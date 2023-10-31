@@ -1,0 +1,21 @@
+{
+  "name": "textocr",
+  "version": "1.0.0",
+  "description": "extracting text from scanned pdf",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Aayush",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.1",
+    "node-tesseract-ocr": "^2.2.1",
+    "nodemon": "^3.0.1",
+    "pdf-parse": "^1.1.1"
+  }
+}
